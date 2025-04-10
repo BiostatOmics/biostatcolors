@@ -33,7 +33,8 @@ biostat_palettes <- list(
 
   `hot`   = biostat_cols("red", "b_orange"),
   `warm`  = biostat_cols("blue", "violet"),
-  `grass`  = biostat_cols("green", "b_dgreen")
+  `grass`  = biostat_cols("green", "b_dgreen"),
+  `oficial` = c('#44344f','#564d80','#98a6d4','#9fc490','#dff2d8','#cccccc')
   )
 
 #' Return Biostatomics Color Palettes
