@@ -142,7 +142,7 @@ biostat_pal <- function(palette = "main", reverse = FALSE, ...) {
 #'
 colorbiostat <- function(n, reverse = FALSE, palette = "main"){
   if(!palette %in% names(biostat_palettes)){
-    message("Palette musst be some of the following palettes: ", paste(names(biostat_palettes),sep= " ", collapse= ", "))
+    message("Palette must be some of the following palettes: ", paste(names(biostat_palettes),sep= " ", collapse= ", "))
   }
 
   pal <- biostat_pal(palette = palette, reverse = reverse)
